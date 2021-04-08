@@ -1,0 +1,14 @@
+footer ul li{
+    list-style:none;
+}
+footer ul li a{
+
+    color:white;
+}
+footer ul li a:hover{
+    text-decoration:underline;
+    color:white;
+}
+.footerGlobal{
+    margin-top:40px;
+}

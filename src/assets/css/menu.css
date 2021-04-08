@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+.firstEntry{
+    margin-left:130px;
+}
+ul.main li{
+    list-style:none;
+}
+a#basic-nav-dropdown.dropdown-toggle.nav-link:hover{
+    background-color:#afdb00;
+    color:#fff;
+}
+ul.main li img{
+    position:absolute;
+    top:0;
+    left:30px;
+}
+.logo{
+    float: left;
+    padding: 0 !important;
+    width: 178px;
+    z-index: 2000;
+}
+.blocMenu{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 83px;
+}
+.cbpHrmenu{
+    width: 100%;
+    background-color: #fff;
+    font-size: 17px;
+    color: #002838;
+    box-shadow: 0 0px 9px 1px rgba(0,0,0,0.1);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: -1;
+}
+.cbpHrmenu ul{
+    width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+.cbpHrmenu ul li{
+    list-style:none !important;
+}
+.cbpHrmenu ul li.ligo{
+    display: block;
+    float: left;
+    margin-top: -26px;
+}
+.cbpHrmenu ul li a{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #002838;
+    display: inline-block;
+    font-weight: 300;
+    padding: 14px 9px;
+    text-decoration: none;
+}
+.cbpHrmenu .cbpHrsubInner div{
+    float:left
+}
+.cbpHrsubInner .leftSubMenu a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    color: #002838;
+    display: block;
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    padding-left: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.cbpHrsubInner .leftSubMenu a:hover, .cbpHrsubInner .leftSubMenu a.active {
+    color: #afdb00;
+    background: rgba(0, 0, 0, 0) url(https://www.supbiotech.fr/Content/images/design/puce-menu.png) no-repeat scroll 0 13px !important;
+}
+
+.leftMenuContenair{
+    max-width: 440px;
+    width: 100%;
+}
+
+.scrollLogo {
+    position: absolute;
+    top: 13px;
+    left: 47px;
+    z-index: 10;
+    width: 44%;
+    height: auto;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: " ";
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+.menuInline{   
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #002838;
+    display: inline-block;
+    font-weight: 300;
+    padding: 14px 9px;
+    text-decoration: none;    
+}
+.menuInline.borderEntry {
+    border: 1px solid #afdb00;
+}
+.entryContact a{
+    margin-top: 14px;
+    margin-bottom: 17px;
+}
+.leftSubMenu{
+    background-color: #fff;
+}
+.rightSubMenu{
+    width: calc( (48.66666667%) - 1px );
+    margin-left: 1px;
+    margin-bottom: 1px;
+
+}
+.clearfix, .clearboth{
+    float:clearboth;
+}
+.menuHamburger{
+    border:none;
+    background-color:transparent;
+    color:#fff;
+
+}
+.dropdown-toggle::after{
+    border:none !important;
+    content :none !important;
+}

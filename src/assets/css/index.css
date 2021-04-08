@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.contact-clic {
+    position: absolute;
+    bottom: 0;
+    left: calc( 50% - 374px);
+    text-align: center;
+}
+.contact-clic a {
+    width: 181px;
+    height: 211px;
+    padding-top: 130px;
+    font-size: 14.3px;
+    margin-right: -3px;
+}
+.contact-clic a {
+    background-image: url(https://www.supbiotech.fr/Content/images/design/sprite.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+}
+.contact-clic a.documentation {
+    background-position: 0px -746px;
+}
+
+.contact-clic a.candidature {
+    background-position: -197px -748px;
+}
+
+.contact-clic a.entretien {
+    background-position: -393px -748px;
+    /*padding-top: 117px;*/
+    line-height: 17px;
+    margin-right: -3px;
+}
+
+.contact-clic a.contacts {
+    background-position: -589px -748px;
+}
+
+.contact-clic a.rdvperso {
+    background-image: url("https://www.supbiotech.fr/Content/images/design/picto-agenda.png");
+    background-position: 0px 0px;
+    padding-top: 108px;
+    line-height: 17px;
+    width: 177px;
+}
+.contact-clic a:hover{
+    text-decoration:none;
+}
+.contact-clic a.documentation:hover {
+    background-position: 0px -970px;
+    color: #aed136;
+}
+
+.contact-clic a.candidature:hover {
+    background-position: -197px -972px;
+    color: #61c4ae;
+}
+
+.contact-clic a.entretien:hover {
+    background-position: -393px -972px;
+    color: #18afe5;
+}
+
+.contact-clic a.contacts:hover {
+    background-position: -589px -972px;
+    color: #f79653;
+}
+
+.contact-clic a.rdvperso:hover {
+    background-position: 0px -212px;
+    color: #f79653;
+}
+.rightSubMenu{
+        width: calc( (48.66666667%) - 1px );
+        margin-left: 1px;
+        margin-bottom: 1px;
+}
+.rightSubMenu .contactClic a {
+    width: 136px;
+    height: 179px;
+    padding-top: 100px;
+    font-size: 10.8px;
+    text-align: center;
+}
+.rightSubMenu .contactClic a.documentation {
+    background-position: 0px -1671px;
+    color: #aed136;
+}
+.rightSubMenu .contactClic a.documentation:hover {
+    background-position: 0px -1862px;
+    color: #fff;
+}
+.rightSubMenu .contactClic a.candidature {
+    background-position: -151px -1671px;
+    color: #61c4ae;
+}
+.rightSubMenu .contactClic a.candidature:hover {
+    background-position: -151px -1862px;
+    color: #fff;
+}
+.rightSubMenu .contactClic a.entretien {
+    background-position: -302px -1671px;
+    padding-top: 97px;
+    line-height: 17px;
+    color: #00b1eb;
+}
+.rightSubMenu .contactClic a.entretien:hover {
+    background-position: -302px -1862px;
+    color: #fff;
+}
+.rightSubMenu .contactClic a.rdvperso {
+    background-position: -611px -1654px;
+    color: #f79653;
+}
+.rightSubMenu .contactClic a.rdvperso:hover {
+    background-position: -611px -1844px;
+    color: #fff;
+}
+.cbpHrsubInner .rightSubMenu a.close {
+    background-image: url(https://www.supbiotech.fr/Content/images/design/cross-menu.png) !important;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    top: 10px;
+    position: absolute;
+    right: 10px;
+}
+/**************POST HEADER HOME*****************/
+
+.homeBkg {
+    background: url(https://www.supbiotech.fr/Content/images/design/visuel-top-home.jpg) no-repeat center top;
+    height: 840px;
+    position: relative;
+    margin-bottom: 60px;
+    position:relative;
+    margin-top: 80px;
+}
+
+.cropCircle {
+    background: url(https://www.supbiotech.fr/Content/images/design/half-circle-home.png) no-repeat center top;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 229px);
+    height: 223px;
+    width: 458px;
+    text-align: center;
+}
+
+.cropCircle h1 {
+    font-weight: 300;
+    font-size: 35px;
+    margin-bottom: 28px;
+    margin-top: 10px;
+}
+
+.cropCircle h1 span {
+    font-weight: 700;
+}
+
+.cropCircle span.petit {
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 11px;
+    display: block;
+    font-weight: 400;
+    margin-left: 80px;
+    margin-top: -10px;
+}
+
+.cropCircle span.petit img {
+    float: left;
+}
+
+
+.cropCircle span.petit span.petitText {
+    margin-left: 10px;
+    float: left;
+    text-align: left;
+}
+
+.bloc-encadre {
+    padding: 15px; 
+    border: 3px solid #00b1eb; 
+    margin-bottom: 15px;
+}
+
+.jpohome {
+    text-align: center;
+    background: url('https://www.supbiotech.fr/Content/images/design/agenda.png') no-repeat center top;
+    width: 423px;
+    height: 423px;
+    position: absolute;
+    right: 0;
+    top: 152px;
+    font-size: 26px;
+    font-weight: 300;
+    padding-top: 90px;
+}
+
+.jpohome .titleBulle {
+    font-size: 22px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:transparent;
+    border-color: none;
+}
+
+footer{
+    border-bottom: solid 1px #fff;
+    background-color: #414344;
+    color: #fff;
+    padding: 0;
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#presentation {
+    padding-top: 40px;
+    background-color: #002838;
+    color: #fff;
+    margin-top: 140px;
+}
+.first-gauche {
+    width: 313px;
+    height: 380px;
+    background-image: url("https://www.supbiotech.fr/images/design/hexagone-1.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    float: left;
+    margin-top: -96px;
+    font-size: 40px;
+    color: #002838;
+    line-height: 39px;
+    text-align: center;
+    padding-top: 112px;
+}
+.first-droit {
+    width: calc( 100% - 420px);
+    float: left;
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 21px;
+    line-height: 27px;
+}
